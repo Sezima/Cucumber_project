@@ -71,8 +71,22 @@ public class StepDefinition {
     }
 
 
+    @Then("verify user could not access home page")
+    public void verifyUserCouldNotAccessHomePage() {
+        
+    }
 
+    @Given("user opens the website")
+    public void userOpensTheWebsite() {
+        
+    }
 
+    @When("user enters invalid password")
+    public void userEntersInvalidPassword() {
+        
+    }
 
-
+    @When("user click login button with blank credentials")
+    public void userClickLoginButtonWithBlankCredentials() {
+    }
 }
